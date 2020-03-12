@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca231100713662469e439c9bb629f21, type: 3}
+  m_Name: Room3
+  m_EditorClassIdentifier: 
+  storyText: "The next chamber opens up to a dark room with torches along the wall.
+    You see another two passages before you. Down the left you see a faint light,
+    you can see that the passage gets smaller and smaller, probably still big enough
+    to crawl through. Down the right you can hear voices, one male and one female.
+    \r\n\r\n1.Go through the passage\r\n2. Follow the voices"
+  nextStates:
+  - {fileID: 11400000, guid: c695f649436313247b8e159c3ae63feb, type: 2}
+  - {fileID: 11400000, guid: 117c3543d54c87a478c362a52218138f, type: 2}

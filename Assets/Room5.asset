@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca231100713662469e439c9bb629f21, type: 3}
+  m_Name: Room5
+  m_EditorClassIdentifier: 
+  storyText: 'You struggle to wiggle your way through the tunnel but managed to squeeze
+    through. As you pass through into the next chamber, you notice a chest all on
+    it''s own. As you open it, a golden gleam of shine is cast upon your face and
+    a smile goes across your face. You have found the lost treasure!
+
+    
+
+    1.Congratulations,
+    you return home a hero to your village (Press 1 to play again)'
+  nextStates:
+  - {fileID: 11400000, guid: e380bc1865555ac42a85591cbc9bd54b, type: 2}

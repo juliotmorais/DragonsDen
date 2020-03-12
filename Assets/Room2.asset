@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca231100713662469e439c9bb629f21, type: 3}
+  m_Name: Room2
+  m_EditorClassIdentifier: 
+  storyText: 'As you enter next chamber, a crack in the ceiling reveals a beam of
+    moonlight that illuminates the room. In here you see a pool of water with an
+    underground tunnel to your left. However you also see an aclove in the wall that
+    you can climb into to continue exploring without getting wet.
+
+    
+
+    1.
+    Dive into the pool (Press 1)
+
+    2. Climb the wall to enter the aclove (Press
+    2)'
+  nextStates:
+  - {fileID: 11400000, guid: 09a729eb826d6d945b1ac4b72f0b484d, type: 2}
+  - {fileID: 11400000, guid: c695f649436313247b8e159c3ae63feb, type: 2}

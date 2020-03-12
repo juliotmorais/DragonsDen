@@ -6,6 +6,7 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea(14,10)] [SerializeField] string storyText;
+    [SerializeField] State[] nextStates;
 
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,10 @@ public class State : ScriptableObject
     public string GetStateStory()
     {
         return storyText;
+    }
+
+    public State[] GetNextStates()
+    {
+        return nextStates;
     }
 }

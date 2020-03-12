@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca231100713662469e439c9bb629f21, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: "Brave Knight! Be not afraid of the sound of my voice, I am here to
-    guide you on your perilous adventure through the Dragon's Den.\r\nHead my warning,
-    you will be left with the choices of your path.\r\nWill you emerge from the den
-    a Hero, or fall like many before you have...\r\n\r\nYou enter the dark cavern
-    as quietly as you can with your heavy soon of armor, careful not to make a clank
-    with your suit.  Your torch burns and lights up the room before you. You see
-    two paths before you...\r\n\r\n1. Go Left (Press \rLeft Arrow)\n2. Go Right (Press
-    Right Arrow)"
+  storyText: 'Brave Knight! Be not afraid of the sound of my voice, I am here to
+    guide you on your perilous adventure through the Dragon''s Den.
+
+    Head my
+    warning, you will be left with the choices of your path.
+
+    Will you emerge
+    from the den a Hero, or fall like many before you have...
+
+
+    1. Enter the
+    cave... (Press 1)'
+  nextStates:
+  - {fileID: 11400000, guid: 5bc0eef42d7b55c48bab66ed0ec81d44, type: 2}
